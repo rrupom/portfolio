@@ -1,4 +1,4 @@
-import Card from "@/app/components/experience/card/Card";
+import Card from "@/lib/components/experience/card/Card";
 import experiences from "./items";
 import styles from "./List.module.css";
 

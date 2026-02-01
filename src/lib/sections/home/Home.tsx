@@ -1,10 +1,10 @@
-import Profile from "@/app/components/profile/Profile";
-import Nav from "@/app/components/nav/Nav";
+import Profile from "@/lib/components/profile/Profile";
+import Nav from "@/lib/components/nav/Nav";
 import styles from "./Home.module.css";
-import Socials from "@/app/components/socials/Socials";
-import ExperienceSummary from "@/app/components/experience/summary/Summary";
-import List from "@/app/components/experience/list/List";
-import Projects from "@/app/components/projects/Projects";
+import Socials from "@/lib/components/socials/Socials";
+import ExperienceSummary from "@/lib/components/experience/summary/Summary";
+import List from "@/lib/components/experience/list/List";
+import Projects from "@/lib/components/projects/Projects";
 
 const Home = () => {
   return (
