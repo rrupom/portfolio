@@ -1,0 +1,43 @@
+.nav-container {
+  padding-top: 50px;
+}
+.nav-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container ul a {
+  text-decoration: none;
+}
+.nav-container ul li {
+  position: relative;
+  padding-left: 70px;
+  cursor: pointer;
+  width: max-content;
+}
+
+.nav-container ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 40px;
+  height: 1px;
+  background-color: var(--white);
+  transform: translateY(-50%);
+  transition: width 0.3s ease;
+}
+
+.nav-container ul li:hover::before,
+.nav-container ul li.active::before {
+  width: 60px;
+  background-color: var(--green);
+}
+.nav-container ul li:hover,
+.nav-container ul li.active {
+  color: var(--green);
+}
